@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yarnify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    color:rgb(238, 239, 224);
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(129, 154, 145);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.nav .part1{
+    display: flex;
+    background-color: rgb(129, 154, 145);
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.branding h1{
+    background-color: rgb(129, 154, 145);
+    color: #F8F5F2;
+    font-family: 'Playfair Display', serif
+}
+.branding p{
+    background-color: rgb(129, 154, 145);
+    color: #E6DDD4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+.logo{
+    background-image: url("./images/yanifylogo.jpeg");
+    height: 100%;
+    width: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+.part2 .search i{
+    font-size: 30px ;
+    background-color: rgb(129, 154, 145);
+}
+.part2  input{
+    width:95%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+.part3{
+    background-color: rgb(129, 154, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.part3 a{
+    background-color: rgb(129, 154, 145);
+
+}
+.part3 .heart{
+    background-color: rgb(129, 154, 145);
+    font-size: 30px;
+}
+.heart i{
+    background-color:rgb(129, 154, 145) ;
+}
+@media ( max-width:500px) {
+    .part2{
+        display: none;
+    }
+    .part3 a{
+        display: none;
+    }
+}
+@media ( max-width:800px){
+    .part3 a{
+        display: none;
+        width: 10%;
+    }
+    .part2{
+        width: 40%;
+    }
+    .part2 .search{
+        padding: 10vw;
+    }
+}
+@media ( max-width:900px){
+    .part2 {
+        width: 15%;
+    }
+    .part2 .search i{
+    font-size: 20px ;
+    }
+    .part2 input{
+        display: none;
+    }
+    .part3{
+        width: 40%;
+    }
+} 
+main{
+    background-color: #D1D8BE;
+}
+.main-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.about-yarnify{
+    font-size: 1.5rem;
+    max-width: 400px;
+}
+.yarnify-poster{
+    background-image: url("images/yarnify.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
+.current-collection{
+    display: flex;
+    width: 100vw;
+}
+
+.main-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.main-section2-products{
+    height: 300px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+.flower{
+    background-image: url("https://pasticheak.in/cdn/shop/files/crochettulipstem_1500x.jpg?v=1711121863");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+
+} 
+.plushie{
+    background-image: url("https://thecrochetboutique.co.uk/cdn/shop/files/Adorable_Handmade_Crochet_Penguin_Perfect_Gift_for_Penguin_Lovers.jpg?v=1746503237&width=533");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+
+}
+.keychain{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5X3h-LHAJbiVFLfHhQ9vHwQdUu0SGwukzA&s");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+
+}
+.bags{
+    background-image: url("https://www.zwende.com/cdn/shop/files/1b_208280a5-b150-41ae-b4d1-007ebecc4a2d.jpg?v=1771572352&width=900");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+
+}
+.random1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx0OwcyZj9JuPji3tVfEGZtTpvu5ROIPYLUg&s");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+
+}
+.random2{
+    background-image: url("https://www.zwende.com/cdn/shop/files/a26_bdbd3e96-ba19-4e39-8c01-d975af7f9054.jpg?v=1771917060&width=900");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+
+}
+footer{
+    background-color: rgb(129, 154, 145);
+}
+.outer{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="part1">
+                <div class="logo"></div>
+                <div class="branding">
+                    <h1>Yarnify</h1>
+                    <p>Looped with Love</p>
+                </div>
+            </div>
+            <div class="part2">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input  placeholder="Looking for something cute?">
+            </div>
+            <div class="part3">
+                <a>Home</a>
+                <a>Customize</a>
+                <a>New release</a>
+                <a>About</a>
+                <div class="heart"><i class="fa-solid fa-heart"></i></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-section">
+            <div class="about-yarnify">
+                <h1>Handmade Crochet Creations</h1>
+               <p>Crafted with love, care, and creativity — discover cozy handmade crochet pieces designed to bring warmth and happiness into your life.</p>
+            </div>
+            <div class="yarnify-poster"></div>
+        </div>
+        <div class="main-section2">
+            <div class="flower main-section2-products"></div>
+            <div class="keychain main-section2-products"></div>
+            <div class="plushie main-section2-products"></div>
+            <div class="bags main-section2-products"></div>
+            <div class="random1 main-section2-products"></div>
+            <div class="random2 main-section2-products"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="outer">
+            <div class="inner">
+                <p>Follow us on instagram: yarnifyy.in</p>
+                <p>DM for custom order</p>
+                <h1>Thank You So Much</h1>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
